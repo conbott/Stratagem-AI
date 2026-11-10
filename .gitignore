@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Keys
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Output directories & JSON exports
+plans/*
+!plans/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Logs & System Files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
